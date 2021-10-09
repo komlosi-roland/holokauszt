@@ -1,0 +1,66 @@
+.navos{
+    color: white;
+}
+
+.navos:hover{
+    background-color: black;
+    color: white;
+}
+
+.nevek{
+    color: white;
+}
+
+main{
+    background-color: rgb(221, 221, 221);
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+.kepek{
+    width: 250px;
+}
+
+p{
+    text-align: justify;
+}
+
+h2{
+    border-radius: 20px;
+    background-color: white;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
