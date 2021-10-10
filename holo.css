@@ -1,13 +1,13 @@
 .navos{
-    color: white;
+    color: black;
 }
 
-.navos:hover{
+.tobbinav, .drop:hover{
     background-color: black;
     color: white;
 }
 
-.nevek{
+.nevek, .tobbinav, .drop{
     color: white;
 }
 
@@ -15,6 +15,8 @@ main{
     background-color: rgb(221, 221, 221);
     margin-top: 15px;
     padding-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .kepek{
@@ -36,8 +38,10 @@ h2{
     font-size: 150%;
 }
 
-
-
-
-
+h1{
+    text-transform: uppercase;
+    font-family: fantasy;
+    margin-top: 10px;
+    text-shadow: 5px 5px 5px rgb(160, 160, 160);
+}
 
