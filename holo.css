@@ -45,3 +45,8 @@ h1{
     text-shadow: 5px 5px 5px rgb(160, 160, 160);
 }
 
+table{
+    background-color: rgba(151, 150, 150, 0.637);
+    border: 1px solid black;
+}
+
