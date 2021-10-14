@@ -10,7 +10,7 @@
     <title>Kicsit mélyebben a Holokausztról</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md bg-dark">
+    <nav class="navbar navbar-expand-md bg-dark nav-tabs">
         <a class="navbar-brand"></a>
         <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -18,15 +18,22 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link disabled" href="#">Főoldal <span class="sr-only"></span></a>
-            <a class="nav-item nav-link d-block navos"href="#jelentese">Jelentése</a>
-            <a class="nav-item nav-link navos" href="#elozmenye">Előzménye</a>
-            <a class="nav-item nav-link navos" href="#kezdete">Kezdete</a>
-            <a class="nav-item nav-link navos" href="forrasok.html">Források</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle drop" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Oldalrészek</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item nav-item nav-link navos" href="#jelentese">Jelentése</a></li>
+                  <li><a class="dropdown-item nav-item nav-link navos" href="#elozmenye">Előzménye</a></li>
+                  <li><a class="dropdown-item nav-item nav-link navos" href="#kezdete">Kezdete</a></li>
+                </ul>
+              </li>
+            <a class="nav-item nav-link tobbinav" href="Anne_Frank.html">Anne Frank</a>
+            <a class="nav-item nav-link tobbinav" href="matejholokauszt.html">Érdekességek</a>
+            <a class="nav-item nav-link tobbinav" href="forrasok.html">Források</a>
           </div>
         </div>
     </nav>
-    <header>
-
+    <header class="container">
+        <h1 class="text-center">Holokauszt</h1>
     </header>
 
     <main class="container">
@@ -35,7 +42,7 @@
             <div class="col-12">
                 <h2 class="text-center" id="jelentese">Jelentése</h2>
             </div>
-            <div class="col-12 my-auto">
+            <div class="col-12 my-auto ">
                 <p>A holokauszt legismertebb jelentése a náci Németország által kontrollált területeken a második világháború alatt végrehajtott, a nemzetiszocialista német kormány által eltervezett és irányított népirtás, amelynek körülbelül hatmillió európai, zsidó származású ember esett áldozatul. Zsidó terminusa a soa vagy soá ami a teljes pusztulást, kiirtást jelenti.</p>
             </div> 
             <div class="col-md-4 col-lg-5 col-xl-4 my-auto">
@@ -87,9 +94,17 @@
             <div class="d-none d-sm-block col-md-4">
                 <img class="img-fluid d-block kepek mx-auto" src="kepek/Grynszpan.jpg" alt="Grynszpan" title="Grynszpan">
             </div>
-            <div class="col-12">
+            
+            <div class="col-4 my-auto">
+                <img class="img-fluid kepek d-block mx-auto" src="kepek/holo2.jpg" alt="">
+            </div>
+            <div class="col-8">
                 <p>Németországban betiltották a zsidó lapokat, és kitiltották a zsidókat a német oktatási intézményekből. 9-én este civil ruhás rohamosztagosok zsidóellenes zavargásokat szítottak, közel száz zsidót megöltek, több mint ezer zsinagógát és sok ezer zsidó lakást és boltot kiraboltak és felgyújtottak, és mintegy 30 000 embert koncentrációs táborokba vittek. Hasonló események zajlottak Ausztriában is.</p>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-12"><h2 class="text-center">Summary</h2></div>
+            <div class="col-12"><p>In this part, we elaborate on how the Holocaust became a thing, how it started and the history behind it.</p></div>
         </div>
     </main>
     
