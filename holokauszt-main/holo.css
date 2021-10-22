@@ -1,0 +1,56 @@
+.navos{
+    color: black;
+}
+
+.tobbinav, .drop:hover{
+    background-color: black;
+    color: white;
+}
+
+.nevek, .tobbinav, .drop{
+    color: white;
+}
+
+main{
+    background-color: rgb(221, 221, 221);
+    margin-top: 15px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.kepek{
+    width: 200px;
+    box-shadow: 4px 4px 4px ;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+h2{
+    border-radius: 20px;
+    background-color: white;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: fantasy;
+    margin-top: 10px;
+    text-shadow: 5px 5px 5px rgb(160, 160, 160);
+}
+
+table{
+    background-color: rgba(151, 150, 150, 0.637);
+    border: 1px solid black;
+}
+
+.forraskepek{
+    height: 250px;
+    box-shadow: 4px 4px 4px;
+}
